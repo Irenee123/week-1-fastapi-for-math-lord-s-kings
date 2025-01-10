@@ -14,6 +14,10 @@ def f(x):
 #Implement the formula MX + B
 #Have two function one using numpy and another not using numpy
 #Return 
+# Count lines in the file
+with open('example.txt', 'r') as file:
+    lines = file.readlines()
+    print(f'The file has {len(lines)} lines.')
 
 #initialize x as a 5 * 5 matrix
 
